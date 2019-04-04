@@ -1,6 +1,6 @@
 # BootSass
 
-A solid and simple base for front-end web projects using Sass, JavaScript, task automation and linting.
+A simple Bootstrap Sass framework with using Gulp, JavaScript, task automation and linting. With thanks to Ben Spencer.
 
 
 ### Installing
