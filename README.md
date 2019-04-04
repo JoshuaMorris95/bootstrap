@@ -1,6 +1,6 @@
 # BootSass
 
-A simple Bootstrap Sass framework using Gulp, JavaScript, task automation and linting. With thanks to Ben Spencer.
+A simple Bootstrap Sass framework using Gulp, JavaScript, task automation and linting. With thanks to [Ben Spencer](https://github.com/spenno).
 
 
 ## Installing
