@@ -17,6 +17,8 @@ A simple Bootstrap Sass framework using Gulp 4, JavaScript, task automation and 
 
 5. Proceed to Step Two.
 
+6. Issues? [Visit this website](https://www.tutorialspoint.com/gulp/gulp_installation.htm)
+
 ### Step One: Mac
 
 1. On a Mac, open your app launcher and type "Terminal" to search your applications and open "Terminal".
@@ -27,17 +29,17 @@ A simple Bootstrap Sass framework using Gulp 4, JavaScript, task automation and 
 $ xcode-select --install
 ```
 
-2. If you've recently installed Xcode you might need to launch it and accept the terms and conditions.
+3. If you've recently installed Xcode you might need to launch it and accept the terms and conditions.
 
-3. Install Node.js by running the Node Version Manager (NVM) install script (ff you're using [Z shell](https://www.zsh.org/), replace `bash` with `zsh` in the above install script):
+4. Install Node.js by running the Node Version Manager (NVM) install script (ff you're using [Z shell](https://www.zsh.org/), replace `bash` with `zsh` in the above install script):
 
 ```
 $ curl -o- https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
 ```
 
-4. Restart your Mac.
+5. Restart your Mac.
 
-5. Proceed to Step Two.
+6. Proceed to Step Two.
 
 ### Step Two (Windows and Mac)
 
@@ -59,25 +61,25 @@ $ nvm ls-remote --lts | grep Latest
 $ nvm install --lts
 ```
 
-3. Now that you've installed the latest version, check that the latest version is being used:
+4. Now that you've installed the latest version, check that the latest version is being used:
 
 ```
 $ node -v
 ```
 
-4. Now update the Node.js Package Manager, NPM:
+5. Now update the Node.js Package Manager, NPM:
 
 ```
 $ npm install -g npm
 ```
 
-5. Install the Gulp command line utility:
+6. Install the Gulp command line utility:
 
 ```
 $ npm install --g gulp-cli
 ```
 
-6. Install all of BootSass's required packages:
+7. Install all of BootSass's required packages:
 
 ```
 $ npm install
