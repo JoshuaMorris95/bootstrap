@@ -5,17 +5,25 @@ A simple Bootstrap Sass framework using Gulp, JavaScript, task automation and li
 
 ## Installing
 
+### Step One: Windows
+
+1. On a Windows computer, visit the website https://nodejs.org/en/download/ and download the "Windows Installer".
+
+2. Run the installer, accepting the licence agreement, keeping all the default options.
+
+3. Restart your Computer.
+
 ### Step One: Mac
 
-On a Mac, launch Terminal (or your preferred alternative) and install the Xcode Command Line Tools:
+1. On a Mac, launch Terminal (or your preferred alternative) and install the Xcode Command Line Tools:
 
 ```
 $ xcode-select --install
 ```
 
-If you've recently installed Xcode you might need to launch it and accept the terms and conditions.
+2. If you've recently installed Xcode you might need to launch it and accept the terms and conditions.
 
-Install Node.js by running the Node Version Manager (NVM) install script:
+3. Install Node.js by running the Node Version Manager (NVM) install script:
 
 ```
 $ curl -o- https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
@@ -23,7 +31,7 @@ $ curl -o- https://raw.githubusercontent.com/creationix/nvm/master/install.sh | 
 
 If you're using [Z shell](https://www.zsh.org/), replace `bash` with `zsh` in the above install script.
 
-Follow the instructions for restarting Terminal or using NVM straight away.
+4. Restart your Mac.
 
 ### Step Two (Windows and Mac)
 
@@ -70,7 +78,7 @@ $ npm install
 ```
 
 
-### Usage
+## Usage
 
 Run 'gulp' to start in development mode and watch for Sass and JavaScript changes.
 
