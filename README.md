@@ -3,7 +3,9 @@
 A simple Bootstrap Sass framework using Gulp, JavaScript, task automation and linting. With thanks to Ben Spencer.
 
 
-### Installing
+## Installing
+
+### Step One: Mac
 
 On a Mac, launch Terminal (or your preferred alternative) and install the Xcode Command Line Tools:
 
@@ -22,6 +24,8 @@ $ curl -o- https://raw.githubusercontent.com/creationix/nvm/master/install.sh | 
 If you're using [Z shell](https://www.zsh.org/), replace `bash` with `zsh` in the above install script.
 
 Follow the instructions for restarting Terminal or using NVM straight away.
+
+### Step Two (Windows and Mac)
 
 Check to see what version of Node.js is installed:
 
