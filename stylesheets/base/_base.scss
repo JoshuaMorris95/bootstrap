@@ -1,0 +1,14 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+
+html {
+  box-sizing: border-box;
+}
+
+/* stylelint-disable selector-max-universal */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}

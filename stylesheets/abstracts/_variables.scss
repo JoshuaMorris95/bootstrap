@@ -1,0 +1,38 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+//Fonts
+@import
+  url('https://fonts.googleapis.com/css?family=Poppins:600,700'),
+  url('https://fonts.googleapis.com/css?family=Karla');
+
+//Font Sizes
+$font-size-base:  1rem;
+$font-size-lg:    ($font-size-base * 1.25);
+$font-size-sm:    ($font-size-base * 0.875);
+
+//Colors
+$black:         #000000;
+$white:         #ffffff;
+$background:    #f7f8fc;
+$primary:       #686de0;
+$secondary:     #535c68;
+$success:       #6ab04c;
+$info:          #7ed6df;
+$warning:       #f9ca24;
+$danger:        #eb4d4b;
+$dark:          rgba($black, 0.9);
+$light:         #ffffff;
+
+//Spacing
+$spacer: 1rem;
+
+//Borders
+$border-radius:     0;
+$border-radius-lg:  0;
+$border-radius-sm:  0;
+
+//Fonts
+$font-headings: 'Poppins', sans-serif;
+$font-paragraph: 'Karla', sans-serif;

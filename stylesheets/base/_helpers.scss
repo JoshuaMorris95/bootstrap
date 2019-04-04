@@ -1,0 +1,10 @@
+// -----------------------------------------------------------------------------
+// This file contains CSS helper classes.
+// -----------------------------------------------------------------------------
+@mixin vertical-transform() {
+  @include media-breakpoint-up(sm) {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+}
