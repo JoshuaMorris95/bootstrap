@@ -7,15 +7,21 @@ A simple Bootstrap Sass framework using Gulp, JavaScript, task automation and li
 
 ### Step One: Windows
 
-1. On a Windows computer, visit the website https://nodejs.org/en/download/ and download the "Windows Installer".
+1. On a Windows computer, visit the [Node JS website](https://nodejs.org/en/download/) and download the "Windows Installer".
 
 2. Run the installer, accepting the licence agreement, keeping all the default options.
 
 3. Restart your Computer.
 
+4. Click the Start Button, type "cmd" to search your applications and open "Command Prompt".
+
+5. Proceed to Step Two.
+
 ### Step One: Mac
 
-1. On a Mac, launch Terminal (or your preferred alternative) and install the Xcode Command Line Tools:
+1. On a Mac, open your app launcher and type "Terminal" to search your applications and open "Terminal".
+
+2. Install the Xcode Command Line Tools by entering the following code into the terminal and press enter:
 
 ```
 $ xcode-select --install
@@ -23,55 +29,55 @@ $ xcode-select --install
 
 2. If you've recently installed Xcode you might need to launch it and accept the terms and conditions.
 
-3. Install Node.js by running the Node Version Manager (NVM) install script:
+3. Install Node.js by running the Node Version Manager (NVM) install script (ff you're using [Z shell](https://www.zsh.org/), replace `bash` with `zsh` in the above install script):
 
 ```
 $ curl -o- https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
 ```
 
-If you're using [Z shell](https://www.zsh.org/), replace `bash` with `zsh` in the above install script.
-
 4. Restart your Mac.
+
+5. Proceed to Step Two.
 
 ### Step Two (Windows and Mac)
 
-Check to see what version of Node.js is installed:
+1. Using the Terminal/Command Prompt type the following code and press enter to check what version of Node.js is installed:
 
 ```
 $ nvm list
 ```
 
-Check the latest stable version of Node.js available for download:
+2. Check what the latest stable version of Node.js available for download:
 
 ```
 $ nvm ls-remote --lts | grep Latest
 ```
 
-To install to the latest version if you want / need to:
+3. If the versions differ, type the following code to install to the latest version:
 
 ```
 $ nvm install --lts
 ```
 
-Check that the expected Node.js version is installed and active:
+3. Now that you've installed the latest version, check that the latest version is being used:
 
 ```
 $ node -v
 ```
 
-Update the Node.js Package Manager, NPM:
+4. Now update the Node.js Package Manager, NPM:
 
 ```
 $ npm install -g npm
 ```
 
-Install the Gulp command line utility:
+5. Install the Gulp command line utility:
 
 ```
 $ npm install --g gulp-cli
 ```
 
-Install all of BootSass's required packages:
+6. Install all of BootSass's required packages:
 
 ```
 $ npm install
@@ -80,13 +86,13 @@ $ npm install
 
 ## Usage
 
-Run 'gulp' to start in development mode and watch for Sass and JavaScript changes.
+1. Run 'gulp' to start in development mode and watch for Sass and JavaScript changes.
 
 ```
 $ gulp
 ```
 
-Run 'gulp prod' to minify CSS and JavaScript ready for production.
+2. Run 'gulp prod' to minify CSS and JavaScript ready for production.
 
 ```
 $ gulp prod
