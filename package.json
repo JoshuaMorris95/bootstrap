@@ -1,7 +1,7 @@
 {
   "name": "BootSass",
   "version": "1.0.0",
-  "description": "A simple Bootstrap Sass framework with using Gulp, JavaScript, task automation and linting. With thanks to Ben Spencer.",
+  "description": "A simple Bootstrap Sass framework with using Gulp 4, JavaScript, task automation and linting. With thanks to Ben Spencer.",
   "main": "js/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
