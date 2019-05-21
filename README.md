@@ -1,6 +1,6 @@
 # BootSass
 
-A simple Bootstrap Sass framework using Gulp 4, JavaScript, task automation and linting. With thanks to [Ben Spencer](https://github.com/spenno).
+A simple Bootstrap Sass framework using Gulp 4, JavaScript, task automation and linting. Developed for use with [CodeFirst: Girls](https://www.codefirstgirls.org.uk/). With thanks to [Ben Spencer](https://github.com/spenno).
 
 
 ## Installing
